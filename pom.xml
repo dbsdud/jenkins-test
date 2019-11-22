@@ -73,14 +73,14 @@
 			<id>production</id>
 			<build>
 				<resources>
-					<resouce>
+					<resource>
 						<directory>${project.basedir}/src/main/resources</directory>
 						<excludes>
 							<exclude>
 								**/*.java
 							</exclude>
 						</excludes>
-					</resouce>
+					</resource>
 				</resources>
 				<plugins>
 					<plugin>
