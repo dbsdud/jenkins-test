@@ -101,10 +101,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-		<plugins>
-
-                  <plugin>
+			<plugin>
 
                         <artifactId>maven-compiler-plugin</artifactId>
 
@@ -145,7 +142,6 @@
                              <password>manager</password>
                         </configuration>
               </plugin>
-            <!--  -->
-        </plugins>
+		</plugins>
 	</build>
 </project>
